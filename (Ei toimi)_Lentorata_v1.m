@@ -1,12 +1,11 @@
 
 function  BS_main
 
-v0   = 100;    % (m/s) Lähtönopeus (K9 Thunder 155 mm) 100ms jälkeen alkaa sekoileen
+v0   = 100;    % (m/s) Lähtönopeus 100ms jälkeen alkaa sekoileen
 alfa = 35      % (deg) Kulma ajanhetkellä 0
 m    = 46.4    % (kg)  Massa (K307, BB/HE 155 mm)
 k    = 0.0055; % Kappaleen ilmanvastusvakio
 g    = 9.81;   % (m/s^2) Gravitaatiovakio
-
 
 
 
@@ -59,7 +58,7 @@ vy1 = v*sind(alfa)                           % nopeuden y komponentti ajan hetke
 %x = x + vx1     % 0 + 26 = 26
 %y = y + vy1     % 0 + 23 = 23
 
-ax1 = (-k*vx1)*sqrt(vx1^2+vy1^2)   %-4.9     % kiihtyvyyden x komponentit ilmanvastus kasvaa vissii eksponentiaalisesti siks sekoaa 100ms jälkee
+ax1 = (-k*vx1)*sqrt(vx1^2+vy1^2)   %-4.9     % kiihtyvyyden x komponentit 
 ay1 = -g-(k*vy1)*sqrt(vx1^2+vy1^2) %-14      % kiihtyvyyden y komponentit
 
 vx1 = vx1 + ax1
