@@ -1,2 +1,2 @@
 # Ballistics-Simulation
-My goal is to create my own model to calculate different trajectories.
+Vanha versio Lentorata_v1 ei ikäväkyllä toimi kunnolla, mutta tein version "(Toimii)_Lentoratalaskuri_V5.m", joka toimii jokseenkin paremmin.
